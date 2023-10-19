@@ -1,0 +1,14 @@
+def factorial(choice,a,b):
+   match choice:
+      case 1:
+         return a+b
+      case 2:
+         return a-b
+      case 3:
+         return a*b
+      case 4:
+         return a/b
+      case 5:
+         return a%b
+      case 6:
+         return a**b
